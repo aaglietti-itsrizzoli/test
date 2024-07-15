@@ -11,3 +11,6 @@ cd target/site/jacoco
 python3 -m http.server
 
 We use https://github.com/actions/upload-artifact to upload our newly created Jar to artifacts of the current GitHub repository
+
+Sonarcloud how to for JaCoCo
+https://docs.sonarsource.com/sonarcloud/enriching/test-coverage/java-test-coverage/
