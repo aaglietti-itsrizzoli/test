@@ -7,3 +7,5 @@ mvn package
 java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
 
 mvn test
+
+We use https://github.com/actions/upload-artifact to upload our newly created Jar to artifacts of the current GitHub repository
