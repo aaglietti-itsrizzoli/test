@@ -25,4 +25,10 @@ public class AppTest
         App myApp = new App();
         assertNotNull("myApp is null!!", myApp);
     }
+
+    @Test
+    public void shouldExecuteMain()
+    {
+        App.main(null);
+    }
 }
